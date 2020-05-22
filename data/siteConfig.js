@@ -1,109 +1,98 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  siteTitle: `Hi, I'm Matthew!`,
+  siteDescription: `Matthew Shin Personal Portfolio`,
+  keyWords: ['gatsbyjs', 'react'],
+  authorName: 'Matthew Shin',
+  githubUsername: 'mtshin',
+  authorAvatar: '/images/profile_pic.jpeg',
+  authorDescription: `Software Engineer at Hitachi Vantara. <br />
+    I started working as a quality engineer developing automation infrastructure and tests for an object storage product in Java. <br />
+    My interest in front end sparked after working on the first iteration of the product's UI in Typescript and Angular. I began to study Javascript and work on personal projects in my free time to become a dull stack developer. <br /> 
+    I'm currently developing a revamped UI for our product in Typescript and React while balancing my quality team responsibilities. <br />
+    I love to work with <strong>Javascript/Typescript, NodeJS, React, and Redux</strong>. I'm experienced with <strong>Java, and Amazon S3</strong>. I’ve dabbled in Python, MongoDB, SQL, and PromQL.`,
   skills: [
     {
+      name: 'Javascript/Typescript',
+      level: 70,
+    },
+    {
+      name: 'Java',
+      level: 60,
+    },
+    {
       name: 'HTML',
-      level: 70
+      level: 55,
     },
     {
       name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
+      level: 50,
     },
     {
       name: 'React',
-      level: 60
+      level: 60,
+    },
+    {
+      name: 'Redux',
+      level: 40,
+    },
+    {
+      name: 'NodeJs',
+      level: 50,
     },
     {
       name: 'Git',
-      level: 70
+      level: 70,
     },
     /* more skills here */
   ],
   jobs: [
-    /* more portifolio items here */
+    /* more portfolio items here */
     {
-      company: "Gympass",
+      company: 'Hitachi Vantara',
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'June',
+        year: '2017',
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
+      occupation: 'Software Engineer',
+      description:
+        'Development of UI, automation framework infrastructure, and tests for the object storage management product in an agile team environment.',
+    },
+    {
+      company: 'TetraScience',
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'June',
+        year: '2016',
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '3 mos',
+      occupation: 'Software Engineer Intern',
+      description:
+        'Developed an app to view and modify a database of lab instrument information for the sales team to use in the field with MongoDB, Express, Angular, and NodeJS. Assisted setting up demos for on-site customer visits.',
     },
   ],
-  portifolio: [
+  portfolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: '/images/s3console_poc.png',
+      description: `Proof of Concept S3 Console (React)`,
+      url: 'https://github.com/mtshin/s3console_poc',
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: '/images/tetrascience_db.png',
+      description: 'TetraScience Driver Database (MEAN)',
+      url: 'https://github.com/mtshin/tsdriverapp',
     },
-    /* more portifolio items here */
+    /* more portfolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: 'https://www.linkedin.com/in/mtshin/',
+    github: 'https://github.com/mtshin',
+    email: 'tshin3232@gmail.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
-  background_color: '#ffffff',
+  siteUrl: 'https://mtshin.github.io/portfolio',
+  pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
+  siteCover: '/images/cover.png',
+  googleAnalyticsId: 'UA-167281791-1',
+  background_color: '#25303B',
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
@@ -113,8 +102,8 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
-    }
-  ]
+      label: 'Portfolio',
+      url: '/portfolio',
+    },
+  ],
 }

@@ -95,7 +95,7 @@ module.exports = {
   background_color: '#25303B',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'static/images/favicon.png',
   headerLinks: [
     {
       label: 'Home',

@@ -88,7 +88,7 @@ module.exports = {
     github: 'https://github.com/mtshin',
     email: 'tshin3232@gmail.com',
   },
-  siteUrl: 'https://mtshin.github.io/portfolio',
+  siteUrl: 'https://mtshin.github.io',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.png',
   googleAnalyticsId: 'UA-167281791-1',

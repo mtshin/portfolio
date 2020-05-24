@@ -25,16 +25,26 @@ const HeroTitle = styled.h1`
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
 `
 
-const Hero = ({ className, title }) => (
+const HeroSubTitle = styled.h2`
+  font-weight: 200;
+  font-size: 1.75rem;
+  margin: 10px 60px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+`
+
+const Hero = ({ className, title, subtitle }) => (
   <HeroContainer className={className}>
     <TitleContainer>
       <HeroTitle>{title}</HeroTitle>
+      <HeroSubTitle>{subtitle}</HeroSubTitle>
     </TitleContainer>
   </HeroContainer>
 )
 
 export default styled(Hero)`
-  ${p => `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});`}
+  ${p =>
+    `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});`}
   height: 70vh;
   background-attachment: fixed;
   background-position: bottom center;

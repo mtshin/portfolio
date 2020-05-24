@@ -33,12 +33,18 @@ const JobCard = styled.a`
 
 const Portfolio = ({ className, location }) => {
   const title = 'Portfolio'
+  const subTitle =
+    'A curated collection of my personal projects. Click to view the source code!'
   const { keywords, portfolio } = siteConfig
   return (
     <Layout location={location}>
       <SEO title={title} keywords={keywords} />
 
-      <Hero heroImg={withPrefix('/images/cover_portfolio.png')} title={title} />
+      <Hero
+        heroImg={withPrefix('/images/cover_portfolio.png')}
+        title={title}
+        subtitle={subTitle}
+      />
 
       <Wrapper className={className}>
         <Container className="page-content" fluid>

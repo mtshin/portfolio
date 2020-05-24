@@ -3,4 +3,3 @@
 # Matthew Shin Portfolio
 
 Portfolio website built with gatsby and react, deployed on netlify.
-matthewtaesooshin.com

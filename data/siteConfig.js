@@ -87,6 +87,7 @@ module.exports = {
     linkedin: 'https://www.linkedin.com/in/mtshin/',
     github: 'https://github.com/mtshin',
     email: 'tshin3232@gmail.com',
+    resume: 'MatthewTaesooShinResume.pdf',
   },
   siteUrl: 'https://mtshin.github.io/portfolio',
   pathPrefix: '/portfolio', // Note: it must *not* have a trailing slash.

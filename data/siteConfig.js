@@ -17,15 +17,15 @@ module.exports = {
     },
     {
       name: 'Java',
-      level: 60,
+      level: 65,
     },
     {
       name: 'HTML',
-      level: 55,
+      level: 45,
     },
     {
       name: 'CSS',
-      level: 50,
+      level: 40,
     },
     {
       name: 'React',
@@ -33,11 +33,11 @@ module.exports = {
     },
     {
       name: 'Redux',
-      level: 40,
+      level: 55,
     },
     {
       name: 'NodeJs',
-      level: 50,
+      level: 45,
     },
     {
       name: 'Git',
@@ -71,6 +71,16 @@ module.exports = {
     },
   ],
   portfolio: [
+    {
+      image: '/images/emef.png',
+      description: `Website for non-proft company, EMEF`,
+      url: 'https://github.com/mtshin/emef',
+    },
+    {
+      image: '/images/recipe-search.png',
+      description: `Interactive Recipe Search App (React)`,
+      url: 'https://github.com/mtshin/recipe-search',
+    },
     {
       image: '/images/s3console_poc.png',
       description: `Proof of Concept S3 Console (React)`,

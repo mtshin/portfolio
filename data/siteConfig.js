@@ -5,19 +5,18 @@ module.exports = {
   authorName: 'Matthew Shin',
   githubUsername: 'mtshin',
   authorAvatar: '/images/profile_pic.jpeg',
-  authorDescription: `Software Engineer at Hitachi Vantara. <br />
+  authorDescription: `Software Engineer at HqO. <br />
     I started working as a quality engineer developing automation infrastructure and tests for an object storage product in Java. <br />
-    My interest in front end sparked after working on the first iteration of the product's UI in Typescript and Angular. I began to study Javascript and work on personal projects in my free time to become a dull stack developer. <br /> 
-    I'm currently developing a revamped UI for our product in Typescript and React while balancing my quality team responsibilities. <br />
-    I love to work with <strong>Javascript/Typescript, NodeJS, React, and Redux</strong>. I'm experienced with <strong>Java, and Amazon S3</strong>. I’ve dabbled in Python, MongoDB, SQL, and PromQL.`,
+    My interest in front end sparked after working on the first iteration of that product's UI in Typescript and React. I began to study Javascript and work on personal projects in my free time to set me on the path of a full stack developer. <br />
+    I enjoy working with <strong>Javascript/Typescript, NodeJS, React, and Redux</strong>. I'm experienced with <strong>Java, and Amazon S3</strong>. I’ve dabbled in Python, MongoDB, SQL, and PromQL.`,
   skills: [
     {
       name: 'Javascript/Typescript',
-      level: 70,
+      level: 75,
     },
     {
       name: 'Java',
-      level: 65,
+      level: 60,
     },
     {
       name: 'HTML',
@@ -25,15 +24,15 @@ module.exports = {
     },
     {
       name: 'CSS',
-      level: 40,
+      level: 45,
     },
     {
       name: 'React',
-      level: 60,
+      level: 75,
     },
     {
       name: 'Redux',
-      level: 55,
+      level: 65,
     },
     {
       name: 'NodeJs',
@@ -48,12 +47,23 @@ module.exports = {
   jobs: [
     /* more portfolio items here */
     {
-      company: 'Hitachi Vantara',
+      company: 'HqO',
       begin: {
-        month: 'June',
-        year: '2017',
+        month: 'Nov',
+        year: '2020',
       },
       duration: null,
+      occupation: 'Software Engineer',
+      description:
+        'Front end development of web and mobile tenant experience product.',
+    },
+    {
+      company: 'Hitachi Vantara',
+      begin: {
+        month: 'Jun',
+        year: '2017',
+      },
+      duration: '3 yrs 4 mos',
       occupation: 'Software Engineer',
       description:
         'Development of UI, automation framework infrastructure, and tests for the object storage management product in an agile team environment.',
@@ -61,7 +71,7 @@ module.exports = {
     {
       company: 'TetraScience',
       begin: {
-        month: 'June',
+        month: 'Jun',
         year: '2016',
       },
       duration: '3 mos',

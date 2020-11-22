@@ -55,7 +55,7 @@ module.exports = {
       duration: null,
       occupation: 'Software Engineer',
       description:
-        'Front end development of web and mobile tenant experience product.',
+        'Front end development of web and mobile tenant experience app.',
     },
     {
       company: 'Hitachi Vantara',
